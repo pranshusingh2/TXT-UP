@@ -1,6 +1,6 @@
 import os
 
-API_ID = API_ID =  
+API_ID = os.environ.get("API_ID", "25038096")
 
 API_HASH = os.environ.get("API_HASH", "098112aae38be62db58363267a061b59")
 
@@ -10,7 +10,7 @@ PASS_DB = int(os.environ.get("PASS_DB", "721"))
 
 OWNER = int(os.environ.get("5201266500", ))
 
-LOG = ,
+LOG = 
 
 # UPDATE_GRP = , # bot sat group
 
