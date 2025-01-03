@@ -6,7 +6,7 @@ import os
 import requests
 import time
 from p_bar import progress_bar
-from config import LOG
+from config import BOT_TOKEN, API_ID, API_HASH, PASS_DB, LOG
 import aiohttp
 import tgcrypto
 import aiofiles
