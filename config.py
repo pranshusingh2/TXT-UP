@@ -10,7 +10,7 @@ PASS_DB = int(os.environ.get("PASS_DB", "721"))
 
 OWNER = int(os.environ.get("5201266500", ))
 
-LOG = 
+LOG = -1002353015925
 
 # UPDATE_GRP = , # bot sat group
 
