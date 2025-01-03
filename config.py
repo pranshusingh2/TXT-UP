@@ -18,7 +18,7 @@ LOG = ,
 
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "502980590").split()):
+    for x in (os.environ.get("ADMINS", "5201266500").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
