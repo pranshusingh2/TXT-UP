@@ -33,7 +33,7 @@ bot = Client("bot",
              bot_token= "8123485632:AAHTvq38wj0-8426bsE0TDqsYvGIYU_9JMA", 
              #bot_token= os.environ.get("BOT_TOKEN"),
              api_id= 25038096,
-             api_hash= "098112aae38be62db58363267a061b59)
+             api_hash= "098112aae38be62db58363267a061b59")
 auth_users = [5201266500]
 #romeo  
 
