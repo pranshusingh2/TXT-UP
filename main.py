@@ -30,14 +30,14 @@ import datetime
 import aiohttp
 
 bot = Client("bot",
-             bot_token= "7297413639:AAFzcc2bOjfgUSUieCSrjmJlw1rzM5UPaMM", 
+             bot_token= "8123485632:AAHTvq38wj0-8426bsE0TDqsYvGIYU_9JMA", 
              #bot_token= os.environ.get("BOT_TOKEN"),
-             api_id= 23031620,
-             api_hash= "31cb00c1cbe580394778b43105864bca")
-auth_users = [502980590]
+             api_id= 25038096,
+             api_hash= "098112aae38be62db58363267a061b59)
+auth_users = [5201266500]
 #romeo  
 
-owner_id = 502980590
+owner_id = 5201266500
 # Extras 
 failed_links = []  # List to store failed links
 fail_cap =f"**➜ This file Contain Failed Downloads while Downloding \n You Can Retry them one more time **"
@@ -56,17 +56,17 @@ keyboard = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="👨🏻‍💻 Devloper",
-                url="https://t.me/EX_DOLPHIN",
+                url="https://t.me/prashantbots",
             ),
             InlineKeyboardButton(
                 text="❣️ GITHUB",
-                url="https://t.me/EX_DOLPHIN",
+                url="https://t.me/prashantbots",
             ),
         ],
         [
             InlineKeyboardButton(
                 text="🪄 Updates Channel",
-                url="https://t.me/EX_DOLPHIN",
+                url="https://t.me/prashantbots",
             ),
             
         ],
@@ -80,17 +80,17 @@ Busy = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="👨🏻‍💻 Devloper",
-                url="https://t.me/EX_DOLPHIN",
+                url="https://t.me/prashantbots",
             ),
             InlineKeyboardButton(
                 text="❣️ GITHUB",
-                url="https://t.me/EX_DOLPHIN",
+                url="https://t.me/prashantbots",
             ),
         ],
         [
             InlineKeyboardButton(
                 text="Join to Check My Status ",
-                url="https://t.me/EX_DOLPHIN",
+                url="https://t.me/prashantbots",
             ),
             
         ],
@@ -131,7 +131,7 @@ async def start_command(bot: Client, message: Message):
     
     
     # Caption for the image
-    caption = f"**𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫  👋!\n\n➠ 𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 ♥️\n➠ Can Extract Videos & Pdf Form Your Text File and Upload to Telegram\n\n➠ 𝐔𝐬𝐞 /drm 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐅𝐫𝐨𝐦 𝐓𝐗𝐓 𝐅𝐢𝐥𝐞  \n\n➠𝐌𝐚𝐝𝐞 𝐁𝐲: @EX_DOLPHIN **\n"
+    caption = f"**𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫  👋!\n\n➠ 𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 ♥️\n➠ Can Extract Videos & Pdf Form Your Text File and Upload to Telegram\n\n➠ 𝐔𝐬𝐞 /drm 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐅𝐫𝐨𝐦 𝐓𝐗𝐓 𝐅𝐢𝐥𝐞  \n\n➠𝐌𝐚𝐝𝐞 𝐁𝐲: ❖ 𝐏𝐑𝐀𝐒𝐇𝐀𝐍𝐓 𝐒𝐈𝐍𝐆𝐇🇮🇳  ❖ ™ **\n"
     
     # Send the image with the caption
     await bot.send_photo(
@@ -145,7 +145,7 @@ async def start_command(bot: Client, message: Message):
 async def run_bot(bot: Client, m: Message):
     user_id = m.from_user.id
     if user_id not in auth_users:
-        await m.reply_text("**HEY BUDDY THIS IS ONLY FOR MY ADMINS TO USE THIS CONATCH MY DEV : @EX_DOLPHIN  **")
+        await m.reply_text("**HEY BUDDY THIS IS ONLY FOR MY ADMINS TO USE THIS CONATCH MY DEV : @ 𝐏𝐑𝐀𝐒𝐇𝐀𝐍𝐓 𝐒𝐈𝐍𝐆𝐇🇮🇳  ❖ ™  **")
     else:
         editable = await m.reply_text(" Send Your HTML file\n")
         input: Message = await bot.listen(editable.chat.id)
@@ -252,7 +252,7 @@ async def account_login(bot: Client, m: Message):
             return
     else:
         
-        editable = await m.reply_text(f"**➠ 𝐒𝐞𝐧𝐝 𝐌𝐞 𝐘𝐨𝐮𝐫 𝐓𝐗𝐓 𝐅𝐢𝐥𝐞 𝐢𝐧 𝐀 𝐏𝐫𝐨𝐩𝐞𝐫 𝐖𝐚𝐲 \n\n➠ TXT FORMAT : LINK : URL \n➠ 𝐌𝐨𝐝𝐢𝐟𝐢𝐞𝐝 𝐁𝐲:  @EX_DOLPHIN **")
+        editable = await m.reply_text(f"**➠ 𝐒𝐞𝐧𝐝 𝐌𝐞 𝐘𝐨𝐮𝐫 𝐓𝐗𝐓 𝐅𝐢𝐥𝐞 𝐢𝐧 𝐀 𝐏𝐫𝐨𝐩𝐞𝐫 𝐖𝐚𝐲 \n\n➠ TXT FORMAT : LINK : URL \n➠ 𝐌𝐨𝐝𝐢𝐟𝐢𝐞𝐝 𝐁𝐲:  @prashantbots **")
         input: Message = await bot.listen(editable.chat.id)
         editable = await editable.edit(f"**⚙️PROCESSING INPUT.......**")
 
@@ -444,8 +444,8 @@ async def account_login(bot: Client, m: Message):
             #     cmd = f'yt-dlp -f "{ytf}+bestaudio" --hls-prefer-ffmpeg --no-keep-video --remux-video mkv "{url}" -o "{name}.%(ext)s"'
 
             try:   
-                cc = f' **➭ Index » {str(count).zfill(3)} **\n**➭ Title »  {name1}.mkv**\n**➭ 𝐁𝐚𝐭𝐜𝐡 » {b_name} **\n**➭ Quality » {raw_text2}**\n\n✨ **𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 : {CR}**\n**━━━━━━━✦✗✦━━━━━━━**'
-                cc1 = f'**➭ Index » {str(count).zfill(3)} **\n**➭ Title » {name1}.pdf** \n**➭ 𝐁𝐚𝐭𝐜𝐡 »  {b_name}**\n\n✨ **𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 : {CR}**\n**━━━━━━━✦✗✦━━━━━━━**'                            
+                cc = f' **➭ Index » {str(count).zfill(3)} **\n**➭ Title »  {name1}.mkv✨ 𝐏𝐑𝐀𝐒𝐇𝐀𝐍𝐓 𝐒𝐈𝐍𝐆𝐇✨**\n**➭ 𝐁𝐚𝐭𝐜𝐡 » {b_name} **\n**➭ Quality » {raw_text2}**\n\n✨ **𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 : {CR}**\n**━━━━━━━✦✗✦━━━━━━━**'
+                cc1 = f'**➭ Index » {str(count).zfill(3)} **\n**➭ Title » {name1}.pdf𝐏𝐑𝐀𝐒𝐇𝐀𝐍𝐓 𝐒𝐈𝐍𝐆𝐇❤️** \n**➭ 𝐁𝐚𝐭𝐜𝐡 »  {b_name}**\n\n✨ **𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 : {CR}**\n**━━━━━━━✦✗✦━━━━━━━**'                            
                
                 if "drive" in url:
                     try:
@@ -497,7 +497,7 @@ async def account_login(bot: Client, m: Message):
                         continue
 
                 else:
-                    prog = await m.reply_text(f"📥 **Downloading **\n\n**➭ Count » {str(count).zfill(3)} **\n**➭ Video Name » ** `{name}`\n**➭ Quality** » `{raw_text2}`\n**➭ Video Url »** `{url}`\n**➭ Thumbnail »** `{input6.text}` \n\n✨ **Bot Made by @EX_DOLPHIN**\n**━━━━━━━✦✗✦━━━━━━━**")
+                    prog = await m.reply_text(f"📥 **Downloading **\n\n**➭ Count » {str(count).zfill(3)} **\n**➭ Video Name » ** `{name}`\n**➭ Quality** » `{raw_text2}`\n**➭ Video Url »** `{url}`\n**➭ Thumbnail »** `{input6.text}` \n\n✨ **Bot Made by @𝐏𝐑𝐀𝐒𝐇𝐀𝐍𝐓 𝐒𝐈𝐍𝐆𝐇❤️**\n**━━━━━━━✦✗✦━━━━━━━**")
                     time.sleep(2)
                     res_file = await helper.drm_download_video(url,quality, name,key)
                     filename = res_file
