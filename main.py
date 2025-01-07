@@ -30,14 +30,14 @@ import datetime
 import aiohttp
 
 bot = Client("bot",
-             bot_token= "8123485632:AAHTvq38wj0-8426bsE0TDqsYvGIYU_9JMA", 
+             bot_token= "7148451805:AAEHoW-PiKT4TvgygmBAzxSBZvmtJQ9_Tuo", 
              #bot_token= os.environ.get("BOT_TOKEN"),
-             api_id= 25038096,
-             api_hash= "098112aae38be62db58363267a061b59")
-auth_users = [5201266500]
+             api_id= 14578218,
+             api_hash= "1910055ec43e4b46efeb768a82bdaf68")
+auth_users = [5003683239]
 #romeo  
 
-owner_id = 5201266500
+owner_id = 5003683239
 # Extras 
 failed_links = []  # List to store failed links
 fail_cap =f"**➜ This file Contain Failed Downloads while Downloding \n You Can Retry them one more time **"
@@ -345,7 +345,7 @@ async def account_login(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     if raw_text3 == 'de':
-        CR = "@ITS_NOT_ROMEO"
+        CR = "@𝐏𝐑𝐀𝐒𝐇𝐀𝐍𝐓 𝐒𝐈𝐍𝐆𝐇 ❤️"
     else:
         CR = raw_text3
 
@@ -451,7 +451,7 @@ async def account_login(bot: Client, m: Message):
                     try:
                         ka = await helper.download(url, name)
                         copy = await bot.send_document(chat_id=m.chat.id,document=ka, caption=cc1)
-                        await copy.copy(chat_id = -1002097681261)
+                        await copy.copy(chat_id =-1002478348920)
                         count+=1
                         os.remove(ka)
                         time.sleep(1)
